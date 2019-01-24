@@ -1,189 +1,189 @@
-Question Number,Scale,New Label,Question Text,Data Type,Min Value,Max Value,Scoring,Reverse Coded?,Scale,Factor,Scale Citation
-Start_Date,,Start_Date,Start Date,,,,,,,,
-End_Date,,End_Date,End Date,,,,,,,,
-Status,,Status,Response Type,,,,,,,,
-Progress,,Progress,Progress,,,,,,,,
-Duration_in_seconds,,Duration_seconds,Duration (in seconds),,,,,,,,
-Finished,,Finished,Finished,,,,,,,,
-Recorded_date,,Recorded_Date,Recorded Date,,,,,,,,
-Response_Id,,Response_Id,Response ID,,,,,,,,
-Distribution_Channel,,Distribution_Channel,Distribution Channel,,,,,,,,
-User_Language,,User_Language,User Language,,,,,,,,
-Q1,Age,Age,How old are you (in years)?,Numeric,,,,,,,
-Q2,Gender,Gender,What Gender do you identify as? - Selected Choice,Numeric,1,4,"1= Male, 2= Female, 3 = Not listed (please specify), 4= Prefer not to answer",,,,
-Q2_3_TEXT,Gender,Gender_spec,What Gender do you identify as? - Not listed (Please specify) - Text,Text,,,,,,,
-Q3_1,Geographic Location,location,"Using the slider below, how would you describe where you live?",Numeric,1,10,"2 = Within a major city, 10 = In a rural area",,,,
-Q4,Education,education,What is the highest level of education you have completed?,Numeric,1,7,"1 = Less than high school, 
+DatasetPositon,VariableID,VariableLabel,ItemText,VariableType,ResponseMin,ResponseMax,ResponseLabels,Reverse,Scale,Factor,ScaleCitation
+1,Start_Date,start_date,Start Date,,,,,,,,
+2,End_Date,end_date,End Date,,,,,,,,
+3,Status,status,Response Type,,,,,,,,
+4,Progress,progress,Progress,,,,,,,,
+5,Duration_in_seconds,duration_seconds,Duration (in seconds),,,,,,,,
+6,Finished,finished,Finished,,,,,,,,
+7,Recorded_date,recorded_date,Recorded Date,,,,,,,,
+8,Response_Id,response_id,Response ID,,,,,,,,
+9,Distribution_Channel,distribution_channel,Distribution Channel,,,,,,,,
+10,User_Language,user_language,User Language,,,,,,,,
+11,Q1,age,How old are you (in years)?,Numeric,,,,,Age,,
+12,Q2,gender,What Gender do you identify as? - Selected Choice,Numeric,1,4,"1= Male, 2= Female, 3 = Not listed (please specify), 4= Prefer not to answer",,Gender,,
+13,Q2_3_TEXT,gender_spec,What Gender do you identify as? - Not listed (Please specify) - Text,Text,,,,,Gender,,
+14,Q3_1,location,"Using the slider below, how would you describe where you live?",Numeric,1,10,"2 = Within a major city, 10 = In a rural area",,Geographic Location,,
+15,Q4,education,What is the highest level of education you have completed?,Numeric,1,7,"1 = Less than high school, 
 2 = High school graduate, 
 3 = Technical school diploma, 
 4 = Associate degree, 
 5 = Bachelors degree, 
 6 = Professional degree, 
-7 = Doctorate",,,,
-Q5_1,Vaccines,vax01,Immunizations are getting better and safer all the time as a result of medical research,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_2,Vaccines,vax02,"Vaccines are harmful, and this fact is covered up.",Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_3,Vaccines,vax03,"Authorities promote vaccination for financial gain, not for peopleâ€™s health.",Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_4,Vaccines,vax04,Vaccination programs are a big con.,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_5,Vaccines,vax05,Tiny devices are placed in vaccines to track people.,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_6,Vaccines,vax06,The information I receive about vaccines from the vaccine program is reliable and trustworthy.,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_7,Vaccines,vax07,Immunizations are always proven to be very safe before they are approved for use,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_8,Vaccines,vax08,New vaccines carry more risks than older vaccines,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_9,Vaccines,vax09,Vaccines can cause unforeseen problems in children.,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_10,Vaccines,vax10,I worry about the unknown effects of vaccines in the future.,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_11,Vaccines,vax11,Children get more shots than are good for them,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_12,Vaccines,vax12,It is better for children to get fewer vaccines at the same time,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_13,Vaccines,vax13,Vaccines may cause learning disabilities (such as autism),Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_14,Vaccines,vax14,The ingredients in vaccines (what vaccines are made of) are unsafe,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_15,Vaccines,vax15,"Vaccines may cause chronic disease (such as diabetes, asthma, or immune system problems)",Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_16,Vaccines,vax16,Vaccines are not tested enough for safety,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_17,Vaccines,vax17,Immunizations are one of the safest forms of medicine ever developed,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_18,Vaccines,vax18,Childhood vaccines are effective,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_19,Vaccines,vax19,I can rely on vaccines to stop serious infectious diseases,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_20,Vaccines,vax20,I believe that many of the illnesses shots prevent are severe,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_21,Vaccines,vax21,My child could get a serious disease if he or she were not vaccinated,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_22,Vaccines,vax22,The benefits of vaccines outweigh the risks of vaccines,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_23,Vaccines,vax23,Do you think that most parents like you have their children vaccinated with all the recommended vaccines?,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_24,Vaccines,vax24,Have you ever refused a vaccination for your child?,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_25,Vaccines,vax25,It is better for my child to develop immunity by getting sick than to get a shot,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_26,Vaccines,vax26,I have no concerns about childhood vaccines,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q5_27,Vaccines,vax27,Have you ever delayed a vaccination?,Numeric,1,2,"1 = Yes, 2 = No",,,,
-Q6_1,Climate Change,ccd01,I am uncertain that climate change is really happening,Numeric,1,2,"1= Yes, 2= No",,,,
-Q6_2,Climate Change,ccd02,It is too early to say whether climate change is really a problem,Numeric,1,2,"1= Yes, 2= No",,,,
-Q6_3,Climate Change,ccd03,Climate change is just a natural fluctuation in earthâ€™s temperatures,Numeric,1,2,"1= Yes, 2= No",,,,
-Q6_4,Climate Change,ccd04,I do not believe climate change is a real problem,Numeric,1,2,"1= Yes, 2= No",,,,
-Q6_5,Climate Change,ccd05,I am certain that climate change is really happening,Numeric,1,2,"1= Yes, 2= No",,,,
-Q6_6,Climate Change,ccd06,Claims that human activities are changing the climate are exaggerated,Numeric,1,2,"1= Yes, 2= No",,,,
-Q6_7,Climate Change,ccd07,The seriousness of climate change is exaggerated,Numeric,1,2,"1= Yes, 2= No",,,,
-Q6_8,Climate Change,ccd08,"Floods and heat-waves are not increasing, there is just more reporting of it in the media these days",Numeric,1,2,"1= Yes, 2= No",,,,
-Q6_9,Climate Change,ccd09,The seriousness of climate change is exaggerated in the media.,Numeric,1,2,"1= Yes, 2= No",,,,
-Q6_10,Climate Change,ccd10,"Over the past 12 months, have you punished companies that are opposing steps to reduce global warming by NOT buying their products?",Numeric,1,2,"1= Yes, 2= No",,,,
-Q6_11,Climate Change,ccd11,Do you think global warming should be a high priority for the government?,Numeric,1,2,"1= Yes, 2= No",,,,
-Q6_12,Climate Change,ccd12,Scientists have in the past changed their results to make climate change appear worse than it is,Numeric,1,2,"1= Yes, 2= No",,,,
-Q6_13,Climate Change,ccd13,Climate change is a scam,Numeric,1,2,"1= Yes, 2= No",,,,
-Q6_14,Climate Change,ccd14,The risks associated with climate change are understated,Numeric,1,2,"1= Yes, 2= No",,,,
-Q6_15,Climate Change,ccd15,Climate change is entirely caused by human-activity,Numeric,1,2,"1= Yes, 2= No",,,,
-Q6_16,Climate Change,ccd16,Climate change is just a result of natural variation in the climate.,Numeric,1,2,"1= Yes, 2= No",,,,
-Q6_17,Climate Change,ccd17,"The so-called ""climate threat"" is exaggerated.",Numeric,1,2,"1= Yes, 2= No",,,,
-Q6_18,Climate Change,ccd18,The climate is not really changing,Numeric,1,2,"1= Yes, 2= No",,,,
-Q7_1,Trust in Science,trust01,competent:incompetent,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139309"
-Q7_2,Trust in Science,trust02,intelligent:unintelligent,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139310"
-Q7_3,Trust in Science,trust03,well educated:poorly educated,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139311"
-Q7_4,Trust in Science,trust04,professional:unprofessional,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139312"
-Q7_5,Trust in Science,trust05,experienced:inexperienced,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139313"
-Q7_6,Trust in Science,trust06,qualified:unqualified,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139314"
-Q7_7,Trust in Science,trust07,sincere:insincere,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139315"
-Q7_8,Trust in Science,trust08,honest:dishonest,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139316"
-Q7_9,Trust in Science,trust09,just:unjust,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139317"
-Q7_10,Trust in Science,trust10,fair:unfair,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139318"
-Q7_11,Trust in Science,trust11,moral:immoral,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139319"
-Q7_12,Trust in Science,trust12,ethical:unethical,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139320"
-Q7_13,Trust in Science,trust13,responsible:irresponsible,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139321"
-Q7_14,Trust in Science,trust14,considerate:inconsiderate,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139322"
-Q8_1,Medication Sensitivity,psm01,My body is very sensitive to medicines,Numeric,,,,,Percieved Sensitivity to Medicines Scale,,"Horne, R., Faasse, K., Cooper, V., Diefenbach, M. A., Leventhal, H., Leventhal, E., & Petrie, K. J. (2013). The perceived sensitivity to medicines (PSM) scale: an evaluation of validity and reliability. British journal of health psychology, 18(1), 18-30."
-Q8_2,Medication Sensitivity,psm02,My body overreacts to medicines,Numeric,,,,,Percieved Sensitivity to Medicines Scale,,"Horne, R., Faasse, K., Cooper, V., Diefenbach, M. A., Leventhal, H., Leventhal, E., & Petrie, K. J. (2013). The perceived sensitivity to medicines (PSM) scale: an evaluation of validity and reliability. British journal of health psychology, 18(1), 18-30."
-Q8_3,Medication Sensitivity,psm03,I usually have stronger reactions to medicines than most people,Numeric,,,,,Percieved Sensitivity to Medicines Scale,,"Horne, R., Faasse, K., Cooper, V., Diefenbach, M. A., Leventhal, H., Leventhal, E., & Petrie, K. J. (2013). The perceived sensitivity to medicines (PSM) scale: an evaluation of validity and reliability. British journal of health psychology, 18(1), 18-30."
-Q8_4,Medication Sensitivity,psm04,I have had a bad reaction to medicines in the past,Numeric,,,,,Percieved Sensitivity to Medicines Scale,,"Horne, R., Faasse, K., Cooper, V., Diefenbach, M. A., Leventhal, H., Leventhal, E., & Petrie, K. J. (2013). The perceived sensitivity to medicines (PSM) scale: an evaluation of validity and reliability. British journal of health psychology, 18(1), 18-30."
-Q8_5,Medication Sensitivity,psm05,Even very small amounts of medicines can upset my body,Numeric,,,,,Percieved Sensitivity to Medicines Scale,,"Horne, R., Faasse, K., Cooper, V., Diefenbach, M. A., Leventhal, H., Leventhal, E., & Petrie, K. J. (2013). The perceived sensitivity to medicines (PSM) scale: an evaluation of validity and reliability. British journal of health psychology, 18(1), 18-30."
-Q9_1,Aggression-submission-conventionalism,asc01,We should believe what our leaders tell us.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.168"
-Q9_2,Aggression-submission-conventionalism,asc02,Our leaders know what is best for us.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.169"
-Q9_3,Aggression-submission-conventionalism,asc03,People should be critical of statements made by those in positions of authority.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.170"
-Q9_4,Aggression-submission-conventionalism,asc04,People in positions of authority generally tell the truth.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.171"
-Q9_5,Aggression-submission-conventionalism,asc05,People should be skeptical of all statements made by those in positions of authority.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.172"
-Q9_6,Aggression-submission-conventionalism,asc06,Questioning the motives of those in power is healthy for society.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.173"
-Q9_7,Aggression-submission-conventionalism,asc07,People emphasize tradition too much.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.174"
-Q9_8,Aggression-submission-conventionalism,asc08,Traditions are the foundation of a healthy society and should be respected.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.175"
-Q9_9,Aggression-submission-conventionalism,asc09,It would be better for society if more people followed social norms.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.176"
-Q9_10,Aggression-submission-conventionalism,asc10,Traditions interfere with progress.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.177"
-Q9_11,Aggression-submission-conventionalism,asc11,People should challenge social traditions in order to advance society.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.178"
-Q9_12,Aggression-submission-conventionalism,asc12,People should respect social norms.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.179"
-Q9_13,Aggression-submission-conventionalism,asc13,Strong force is necessary against threatening groups.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.180"
-Q9_14,Aggression-submission-conventionalism,asc14,It is necessary to use force against people who are a threat to authority.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.181"
-Q9_15,Aggression-submission-conventionalism,asc15,Police should avoid using violence against suspects.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.182"
-Q9_16,Aggression-submission-conventionalism,asc16,People should avoid using violence against others even when ordered to do so by the proper authorities.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.183"
-Q9_17,Aggression-submission-conventionalism,asc17,Using force against people is wrong even if done so by those in authority.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.184"
-Q9_18,Aggression-submission-conventionalism,asc18,Strong punishments are necessary in order to send a message.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.185"
-Q10_1,SDO,sdo01,An ideal society requires some groups to be on top and others to be on the bottom.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,SDO7 Scale,,"Ho, A. K., Sidanius, J., Kteily, N., Sheehy-Skeffington, J., Pratto, F., Henkel, K. E., . . . Stewart, A. L. (2015). The nature of social dominance orientation: Theorizing and measuring preferences for intergroup inequality using the new SDO? scale. Journal of Personality and Social Psychology, 109(6), 1003-1028."
-Q10_2,SDO,sdo02,Some groups of people are simply inferior to other groups.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,SDO7 Scale,,"Ho, A. K., Sidanius, J., Kteily, N., Sheehy-Skeffington, J., Pratto, F., Henkel, K. E., . . . Stewart, A. L. (2015). The nature of social dominance orientation: Theorizing and measuring preferences for intergroup inequality using the new SDO? scale. Journal of Personality and Social Psychology, 109(6), 1003-1028."
-Q10_3,SDO,sdo03,No one group should dominate in society.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,SDO7 Scale,,"Ho, A. K., Sidanius, J., Kteily, N., Sheehy-Skeffington, J., Pratto, F., Henkel, K. E., . . . Stewart, A. L. (2015). The nature of social dominance orientation: Theorizing and measuring preferences for intergroup inequality using the new SDO? scale. Journal of Personality and Social Psychology, 109(6), 1003-1028."
-Q10_4,SDO,sdo04,Groups at the bottom are just as deserving as groups at the top.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,SDO7 Scale,,"Ho, A. K., Sidanius, J., Kteily, N., Sheehy-Skeffington, J., Pratto, F., Henkel, K. E., . . . Stewart, A. L. (2015). The nature of social dominance orientation: Theorizing and measuring preferences for intergroup inequality using the new SDO? scale. Journal of Personality and Social Psychology, 109(6), 1003-1028."
-Q10_5,SDO,sdo05,Group equality should not be our primary goal.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,SDO7 Scale,,"Ho, A. K., Sidanius, J., Kteily, N., Sheehy-Skeffington, J., Pratto, F., Henkel, K. E., . . . Stewart, A. L. (2015). The nature of social dominance orientation: Theorizing and measuring preferences for intergroup inequality using the new SDO? scale. Journal of Personality and Social Psychology, 109(6), 1003-1028."
-Q10_6,SDO,sdo06,It is unjust to try to make groups equal.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,SDO7 Scale,,"Ho, A. K., Sidanius, J., Kteily, N., Sheehy-Skeffington, J., Pratto, F., Henkel, K. E., . . . Stewart, A. L. (2015). The nature of social dominance orientation: Theorizing and measuring preferences for intergroup inequality using the new SDO? scale. Journal of Personality and Social Psychology, 109(6), 1003-1028."
-Q10_7,SDO,sdo07,We should do what we can to equalize conditions for different groups.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,SDO7 Scale,,"Ho, A. K., Sidanius, J., Kteily, N., Sheehy-Skeffington, J., Pratto, F., Henkel, K. E., . . . Stewart, A. L. (2015). The nature of social dominance orientation: Theorizing and measuring preferences for intergroup inequality using the new SDO? scale. Journal of Personality and Social Psychology, 109(6), 1003-1028."
-Q10_8,SDO,sdo08,We should work to give all groups an equal chance to succeed.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,SDO7 Scale,,"Ho, A. K., Sidanius, J., Kteily, N., Sheehy-Skeffington, J., Pratto, F., Henkel, K. E., . . . Stewart, A. L. (2015). The nature of social dominance orientation: Theorizing and measuring preferences for intergroup inequality using the new SDO? scale. Journal of Personality and Social Psychology, 109(6), 1003-1028."
-Q11,Liberal-conservative Slider,lib_cons,"In politics, people sometimes talk of liberals and conservatives. Where would you place yourself?",Numeric,1,7,"1=Very liberal, 2=Liberal, 3=A little bit liberal, 4=Neither, 5=A little bit conservative, 6=Conservative, 7=Very conservative, ",,,,
-Q12_1,Conspiracy Beliefs,cons01,"The government is involved in the murder of innocent citizens and/or well-known public figures, and keeps this a secret",Numeric,1,5,"1= Definitely not true
+7 = Doctorate",,Education,,
+16,Q5_1,vax01,Immunizations are getting better and safer all the time as a result of medical research,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+17,Q5_2,vax02,"Vaccines are harmful, and this fact is covered up.",Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+18,Q5_3,vax03,"Authorities promote vaccination for financial gain, not for peopleâ€™s health.",Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+19,Q5_4,vax04,Vaccination programs are a big con.,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+20,Q5_5,vax05,Tiny devices are placed in vaccines to track people.,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+21,Q5_6,vax06,The information I receive about vaccines from the vaccine program is reliable and trustworthy.,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+22,Q5_7,vax07,Immunizations are always proven to be very safe before they are approved for use,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+23,Q5_8,vax08,New vaccines carry more risks than older vaccines,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+24,Q5_9,vax09,Vaccines can cause unforeseen problems in children.,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+25,Q5_10,vax10,I worry about the unknown effects of vaccines in the future.,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+26,Q5_11,vax11,Children get more shots than are good for them,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+27,Q5_12,vax12,It is better for children to get fewer vaccines at the same time,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+28,Q5_13,vax13,Vaccines may cause learning disabilities (such as autism),Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+29,Q5_14,vax14,The ingredients in vaccines (what vaccines are made of) are unsafe,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+30,Q5_15,vax15,"Vaccines may cause chronic disease (such as diabetes, asthma, or immune system problems)",Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+31,Q5_16,vax16,Vaccines are not tested enough for safety,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+32,Q5_17,vax17,Immunizations are one of the safest forms of medicine ever developed,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+33,Q5_18,vax18,Childhood vaccines are effective,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+34,Q5_19,vax19,I can rely on vaccines to stop serious infectious diseases,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+35,Q5_20,vax20,I believe that many of the illnesses shots prevent are severe,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+36,Q5_21,vax21,My child could get a serious disease if he or she were not vaccinated,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+37,Q5_22,vax22,The benefits of vaccines outweigh the risks of vaccines,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+38,Q5_23,vax23,Do you think that most parents like you have their children vaccinated with all the recommended vaccines?,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+39,Q5_24,vax24,Have you ever refused a vaccination for your child?,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+40,Q5_25,vax25,It is better for my child to develop immunity by getting sick than to get a shot,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+41,Q5_26,vax26,I have no concerns about childhood vaccines,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+42,Q5_27,vax27,Have you ever delayed a vaccination?,Numeric,1,2,"1 = Yes, 2 = No",,Vaccines,,
+43,Q6_1,ccd01,I am uncertain that climate change is really happening,Numeric,1,2,"1= Yes, 2= No",,Climate Change,,
+44,Q6_2,ccd02,It is too early to say whether climate change is really a problem,Numeric,1,2,"1= Yes, 2= No",,Climate Change,,
+45,Q6_3,ccd03,Climate change is just a natural fluctuation in earthâ€™s temperatures,Numeric,1,2,"1= Yes, 2= No",,Climate Change,,
+46,Q6_4,ccd04,I do not believe climate change is a real problem,Numeric,1,2,"1= Yes, 2= No",,Climate Change,,
+47,Q6_5,ccd05,I am certain that climate change is really happening,Numeric,1,2,"1= Yes, 2= No",,Climate Change,,
+48,Q6_6,ccd06,Claims that human activities are changing the climate are exaggerated,Numeric,1,2,"1= Yes, 2= No",,Climate Change,,
+49,Q6_7,ccd07,The seriousness of climate change is exaggerated,Numeric,1,2,"1= Yes, 2= No",,Climate Change,,
+50,Q6_8,ccd08,"Floods and heat-waves are not increasing, there is just more reporting of it in the media these days",Numeric,1,2,"1= Yes, 2= No",,Climate Change,,
+51,Q6_9,ccd09,The seriousness of climate change is exaggerated in the media.,Numeric,1,2,"1= Yes, 2= No",,Climate Change,,
+52,Q6_10,ccd10,"Over the past 12 months, have you punished companies that are opposing steps to reduce global warming by NOT buying their products?",Numeric,1,2,"1= Yes, 2= No",,Climate Change,,
+53,Q6_11,ccd11,Do you think global warming should be a high priority for the government?,Numeric,1,2,"1= Yes, 2= No",,Climate Change,,
+54,Q6_12,ccd12,Scientists have in the past changed their results to make climate change appear worse than it is,Numeric,1,2,"1= Yes, 2= No",,Climate Change,,
+55,Q6_13,ccd13,Climate change is a scam,Numeric,1,2,"1= Yes, 2= No",,Climate Change,,
+56,Q6_14,ccd14,The risks associated with climate change are understated,Numeric,1,2,"1= Yes, 2= No",,Climate Change,,
+57,Q6_15,ccd15,Climate change is entirely caused by human-activity,Numeric,1,2,"1= Yes, 2= No",,Climate Change,,
+58,Q6_16,ccd16,Climate change is just a result of natural variation in the climate.,Numeric,1,2,"1= Yes, 2= No",,Climate Change,,
+59,Q6_17,ccd17,"The so-called ""climate threat"" is exaggerated.",Numeric,1,2,"1= Yes, 2= No",,Climate Change,,
+60,Q6_18,ccd18,The climate is not really changing,Numeric,1,2,"1= Yes, 2= No",,Climate Change,,
+61,Q7_1,trust01,competent:incompetent,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139309"
+62,Q7_2,trust02,intelligent:unintelligent,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139310"
+63,Q7_3,trust03,well educated:poorly educated,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139311"
+64,Q7_4,trust04,professional:unprofessional,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139312"
+65,Q7_5,trust05,experienced:inexperienced,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139313"
+66,Q7_6,trust06,qualified:unqualified,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139314"
+67,Q7_7,trust07,sincere:insincere,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139315"
+68,Q7_8,trust08,honest:dishonest,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139316"
+69,Q7_9,trust09,just:unjust,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139317"
+70,Q7_10,trust10,fair:unfair,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139318"
+71,Q7_11,trust11,moral:immoral,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139319"
+72,Q7_12,trust12,ethical:unethical,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139320"
+73,Q7_13,trust13,responsible:irresponsible,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139321"
+74,Q7_14,trust14,considerate:inconsiderate,Numeric,1,7,,,Muenster Epistemic Trustworthiness Inventory ,,"Hendriks F, Kienhues D, Bromme R (2015) Measuring Laypeople’s Trust in Experts in a Digital Age: The Muenster Epistemic Trustworthiness Inventory (METI). PLoS ONE 10(10): e0139309. doi:10.1371/journal.pone.0139322"
+75,Q8_1,psm01,My body is very sensitive to medicines,Numeric,,,,,Percieved Sensitivity to Medicines Scale,,"Horne, R., Faasse, K., Cooper, V., Diefenbach, M. A., Leventhal, H., Leventhal, E., & Petrie, K. J. (2013). The perceived sensitivity to medicines (PSM) scale: an evaluation of validity and reliability. British journal of health psychology, 18(1), 18-30."
+76,Q8_2,psm02,My body overreacts to medicines,Numeric,,,,,Percieved Sensitivity to Medicines Scale,,"Horne, R., Faasse, K., Cooper, V., Diefenbach, M. A., Leventhal, H., Leventhal, E., & Petrie, K. J. (2013). The perceived sensitivity to medicines (PSM) scale: an evaluation of validity and reliability. British journal of health psychology, 18(1), 18-30."
+77,Q8_3,psm03,I usually have stronger reactions to medicines than most people,Numeric,,,,,Percieved Sensitivity to Medicines Scale,,"Horne, R., Faasse, K., Cooper, V., Diefenbach, M. A., Leventhal, H., Leventhal, E., & Petrie, K. J. (2013). The perceived sensitivity to medicines (PSM) scale: an evaluation of validity and reliability. British journal of health psychology, 18(1), 18-30."
+78,Q8_4,psm04,I have had a bad reaction to medicines in the past,Numeric,,,,,Percieved Sensitivity to Medicines Scale,,"Horne, R., Faasse, K., Cooper, V., Diefenbach, M. A., Leventhal, H., Leventhal, E., & Petrie, K. J. (2013). The perceived sensitivity to medicines (PSM) scale: an evaluation of validity and reliability. British journal of health psychology, 18(1), 18-30."
+79,Q8_5,psm05,Even very small amounts of medicines can upset my body,Numeric,,,,,Percieved Sensitivity to Medicines Scale,,"Horne, R., Faasse, K., Cooper, V., Diefenbach, M. A., Leventhal, H., Leventhal, E., & Petrie, K. J. (2013). The perceived sensitivity to medicines (PSM) scale: an evaluation of validity and reliability. British journal of health psychology, 18(1), 18-30."
+80,Q9_1,asc01,We should believe what our leaders tell us.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.168"
+81,Q9_2,asc02,Our leaders know what is best for us.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.169"
+82,Q9_3,asc03,People should be critical of statements made by those in positions of authority.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.170"
+83,Q9_4,asc04,People in positions of authority generally tell the truth.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.171"
+84,Q9_5,asc05,People should be skeptical of all statements made by those in positions of authority.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.172"
+85,Q9_6,asc06,Questioning the motives of those in power is healthy for society.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.173"
+86,Q9_7,asc07,People emphasize tradition too much.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.174"
+87,Q9_8,asc08,Traditions are the foundation of a healthy society and should be respected.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.175"
+88,Q9_9,asc09,It would be better for society if more people followed social norms.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.176"
+89,Q9_10,asc10,Traditions interfere with progress.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.177"
+90,Q9_11,asc11,People should challenge social traditions in order to advance society.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.178"
+91,Q9_12,asc12,People should respect social norms.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.179"
+92,Q9_13,asc13,Strong force is necessary against threatening groups.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.180"
+93,Q9_14,asc14,It is necessary to use force against people who are a threat to authority.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.181"
+94,Q9_15,asc15,Police should avoid using violence against suspects.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.182"
+95,Q9_16,asc16,People should avoid using violence against others even when ordered to do so by the proper authorities.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.183"
+96,Q9_17,asc17,Using force against people is wrong even if done so by those in authority.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.184"
+97,Q9_18,asc18,Strong punishments are necessary in order to send a message.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,Agression-Submission-Conventionalism Scale,,"Dunwoody, P. T., & Funke, F. (2016). The aggression-submission-conventionalism scale: Testing a new three factor measure of authoritarianism. Journal of Social and Political Psychology, 4(2), 571-600. doi: 10.5964/jspp.v4i2.185"
+98,Q10_1,sdo01,An ideal society requires some groups to be on top and others to be on the bottom.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,SDO7 Scale,,"Ho, A. K., Sidanius, J., Kteily, N., Sheehy-Skeffington, J., Pratto, F., Henkel, K. E., . . . Stewart, A. L. (2015). The nature of social dominance orientation: Theorizing and measuring preferences for intergroup inequality using the new SDO? scale. Journal of Personality and Social Psychology, 109(6), 1003-1028."
+99,Q10_2,sdo02,Some groups of people are simply inferior to other groups.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,SDO7 Scale,,"Ho, A. K., Sidanius, J., Kteily, N., Sheehy-Skeffington, J., Pratto, F., Henkel, K. E., . . . Stewart, A. L. (2015). The nature of social dominance orientation: Theorizing and measuring preferences for intergroup inequality using the new SDO? scale. Journal of Personality and Social Psychology, 109(6), 1003-1028."
+100,Q10_3,sdo03,No one group should dominate in society.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,SDO7 Scale,,"Ho, A. K., Sidanius, J., Kteily, N., Sheehy-Skeffington, J., Pratto, F., Henkel, K. E., . . . Stewart, A. L. (2015). The nature of social dominance orientation: Theorizing and measuring preferences for intergroup inequality using the new SDO? scale. Journal of Personality and Social Psychology, 109(6), 1003-1028."
+101,Q10_4,sdo04,Groups at the bottom are just as deserving as groups at the top.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,SDO7 Scale,,"Ho, A. K., Sidanius, J., Kteily, N., Sheehy-Skeffington, J., Pratto, F., Henkel, K. E., . . . Stewart, A. L. (2015). The nature of social dominance orientation: Theorizing and measuring preferences for intergroup inequality using the new SDO? scale. Journal of Personality and Social Psychology, 109(6), 1003-1028."
+102,Q10_5,sdo05,Group equality should not be our primary goal.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,SDO7 Scale,,"Ho, A. K., Sidanius, J., Kteily, N., Sheehy-Skeffington, J., Pratto, F., Henkel, K. E., . . . Stewart, A. L. (2015). The nature of social dominance orientation: Theorizing and measuring preferences for intergroup inequality using the new SDO? scale. Journal of Personality and Social Psychology, 109(6), 1003-1028."
+103,Q10_6,sdo06,It is unjust to try to make groups equal.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",,SDO7 Scale,,"Ho, A. K., Sidanius, J., Kteily, N., Sheehy-Skeffington, J., Pratto, F., Henkel, K. E., . . . Stewart, A. L. (2015). The nature of social dominance orientation: Theorizing and measuring preferences for intergroup inequality using the new SDO? scale. Journal of Personality and Social Psychology, 109(6), 1003-1028."
+104,Q10_7,sdo07,We should do what we can to equalize conditions for different groups.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,SDO7 Scale,,"Ho, A. K., Sidanius, J., Kteily, N., Sheehy-Skeffington, J., Pratto, F., Henkel, K. E., . . . Stewart, A. L. (2015). The nature of social dominance orientation: Theorizing and measuring preferences for intergroup inequality using the new SDO? scale. Journal of Personality and Social Psychology, 109(6), 1003-1028."
+105,Q10_8,sdo08,We should work to give all groups an equal chance to succeed.,Numeric,1,7,"1= strongly disagree, 7 = strongly agree",TRUE,SDO7 Scale,,"Ho, A. K., Sidanius, J., Kteily, N., Sheehy-Skeffington, J., Pratto, F., Henkel, K. E., . . . Stewart, A. L. (2015). The nature of social dominance orientation: Theorizing and measuring preferences for intergroup inequality using the new SDO? scale. Journal of Personality and Social Psychology, 109(6), 1003-1028."
+106,Q11,lib_cons,"In politics, people sometimes talk of liberals and conservatives. Where would you place yourself?",Numeric,1,7,"1=Very liberal, 2=Liberal, 3=A little bit liberal, 4=Neither, 5=A little bit conservative, 6=Conservative, 7=Very conservative, ",,Liberal-conservative Slider,,
+107,Q12_1,cons01,"The government is involved in the murder of innocent citizens and/or well-known public figures, and keeps this a secret",Numeric,1,5,"1= Definitely not true
 2= Probably not true
 3= Not sure/cannot decide
 4= Probably true
 5= Definitely true",,Generic Conspiracist Beliefs Scale,,"Brotherton, R., French, C. C., & Pickering, A. D. (2013). Measuring belief in conspiracy theories: The generic conspiracist beliefs scale. Frontiers in psychology, 4, 279."
-Q12_2,Conspiracy Beliefs,cons02,The power held by heads of state is second to that of small unknown groups who really control world politics,Numeric,1,5,"1= Definitely not true
+108,Q12_2,cons02,The power held by heads of state is second to that of small unknown groups who really control world politics,Numeric,1,5,"1= Definitely not true
 2= Probably not true
 3= Not sure/cannot decide
 4= Probably true
 5= Definitely true",,Generic Conspiracist Beliefs Scale,,"Brotherton, R., French, C. C., & Pickering, A. D. (2013). Measuring belief in conspiracy theories: The generic conspiracist beliefs scale. Frontiers in psychology, 4, 279."
-Q12_3,Conspiracy Beliefs,cons03,"Secret organizations communicate with extraterrestrials, but keep this fact from the public",Numeric,1,5,"1= Definitely not true
+109,Q12_3,cons03,"Secret organizations communicate with extraterrestrials, but keep this fact from the public",Numeric,1,5,"1= Definitely not true
 2= Probably not true
 3= Not sure/cannot decide
 4= Probably true
 5= Definitely true",,Generic Conspiracist Beliefs Scale,,"Brotherton, R., French, C. C., & Pickering, A. D. (2013). Measuring belief in conspiracy theories: The generic conspiracist beliefs scale. Frontiers in psychology, 4, 279."
-Q12_4,Conspiracy Beliefs,cons04,"The spread of certain viruses and/or diseases is the result of the deliberate, concealed efforts of some organization",Numeric,1,5,"1= Definitely not true
+110,Q12_4,cons04,"The spread of certain viruses and/or diseases is the result of the deliberate, concealed efforts of some organization",Numeric,1,5,"1= Definitely not true
 2= Probably not true
 3= Not sure/cannot decide
 4= Probably true
 5= Definitely true",,Generic Conspiracist Beliefs Scale,,"Brotherton, R., French, C. C., & Pickering, A. D. (2013). Measuring belief in conspiracy theories: The generic conspiracist beliefs scale. Frontiers in psychology, 4, 279."
-Q12_5,Conspiracy Beliefs,cons05,"Groups of scientists manipulate, fabricate, or suppress evidence in order to deceive the public",Numeric,1,5,"1= Definitely not true
+111,Q12_5,cons05,"Groups of scientists manipulate, fabricate, or suppress evidence in order to deceive the public",Numeric,1,5,"1= Definitely not true
 2= Probably not true
 3= Not sure/cannot decide
 4= Probably true
 5= Definitely true",,Generic Conspiracist Beliefs Scale,,"Brotherton, R., French, C. C., & Pickering, A. D. (2013). Measuring belief in conspiracy theories: The generic conspiracist beliefs scale. Frontiers in psychology, 4, 279."
-Q12_6,Conspiracy Beliefs,cons06,"The government permits or perpetrates acts of terrorism on its own soil, disguising its involvement",Numeric,1,5,"1= Definitely not true
+112,Q12_6,cons06,"The government permits or perpetrates acts of terrorism on its own soil, disguising its involvement",Numeric,1,5,"1= Definitely not true
 2= Probably not true
 3= Not sure/cannot decide
 4= Probably true
 5= Definitely true",,Generic Conspiracist Beliefs Scale,,"Brotherton, R., French, C. C., & Pickering, A. D. (2013). Measuring belief in conspiracy theories: The generic conspiracist beliefs scale. Frontiers in psychology, 4, 279."
-Q12_7,Conspiracy Beliefs,cons07,"A small, secret group of people is responsible for making all major world decisions, such as going to war",Numeric,1,5,"1= Definitely not true
+113,Q12_7,cons07,"A small, secret group of people is responsible for making all major world decisions, such as going to war",Numeric,1,5,"1= Definitely not true
 2= Probably not true
 3= Not sure/cannot decide
 4= Probably true
 5= Definitely true",,Generic Conspiracist Beliefs Scale,,"Brotherton, R., French, C. C., & Pickering, A. D. (2013). Measuring belief in conspiracy theories: The generic conspiracist beliefs scale. Frontiers in psychology, 4, 279."
-Q12_8,Conspiracy Beliefs,cons08,Evidence of alien contact is being concealed from the public,Numeric,1,5,"1= Definitely not true
+114,Q12_8,cons08,Evidence of alien contact is being concealed from the public,Numeric,1,5,"1= Definitely not true
 2= Probably not true
 3= Not sure/cannot decide
 4= Probably true
 5= Definitely true",,Generic Conspiracist Beliefs Scale,,"Brotherton, R., French, C. C., & Pickering, A. D. (2013). Measuring belief in conspiracy theories: The generic conspiracist beliefs scale. Frontiers in psychology, 4, 279."
-Q12_9,Conspiracy Beliefs,cons09,Technology with mind-control capacities is used on people without their knowledge,Numeric,1,5,"1= Definitely not true
+115,Q12_9,cons09,Technology with mind-control capacities is used on people without their knowledge,Numeric,1,5,"1= Definitely not true
 2= Probably not true
 3= Not sure/cannot decide
 4= Probably true
 5= Definitely true",,Generic Conspiracist Beliefs Scale,,"Brotherton, R., French, C. C., & Pickering, A. D. (2013). Measuring belief in conspiracy theories: The generic conspiracist beliefs scale. Frontiers in psychology, 4, 279."
-Q12_10,Conspiracy Beliefs,cons10,New and advanced technology which would harm current industry is being suppressed,Numeric,1,5,"1= Definitely not true
+116,Q12_10,cons10,New and advanced technology which would harm current industry is being suppressed,Numeric,1,5,"1= Definitely not true
 2= Probably not true
 3= Not sure/cannot decide
 4= Probably true
 5= Definitely true",,Generic Conspiracist Beliefs Scale,,"Brotherton, R., French, C. C., & Pickering, A. D. (2013). Measuring belief in conspiracy theories: The generic conspiracist beliefs scale. Frontiers in psychology, 4, 279."
-Q12_11,Conspiracy Beliefs,cons11,The government uses people as patsies to hide its involvement in criminal activity,Numeric,1,5,"1= Definitely not true
+117,Q12_11,cons11,The government uses people as patsies to hide its involvement in criminal activity,Numeric,1,5,"1= Definitely not true
 2= Probably not true
 3= Not sure/cannot decide
 4= Probably true
 5= Definitely true",,Generic Conspiracist Beliefs Scale,,"Brotherton, R., French, C. C., & Pickering, A. D. (2013). Measuring belief in conspiracy theories: The generic conspiracist beliefs scale. Frontiers in psychology, 4, 279."
-Q12_12,Conspiracy Beliefs,cons12,Certain significant events have been the result of the activity of a small group who secretly manipulate world events,Numeric,1,5,"1= Definitely not true
+118,Q12_12,cons12,Certain significant events have been the result of the activity of a small group who secretly manipulate world events,Numeric,1,5,"1= Definitely not true
 2= Probably not true
 3= Not sure/cannot decide
 4= Probably true
 5= Definitely true",,Generic Conspiracist Beliefs Scale,,"Brotherton, R., French, C. C., & Pickering, A. D. (2013). Measuring belief in conspiracy theories: The generic conspiracist beliefs scale. Frontiers in psychology, 4, 279."
-Q12_13,Conspiracy Beliefs,cons13,Some UFO sightings and rumors are planned or staged in order to distract the public from real alien contact,Numeric,1,5,"1= Definitely not true
+119,Q12_13,cons13,Some UFO sightings and rumors are planned or staged in order to distract the public from real alien contact,Numeric,1,5,"1= Definitely not true
 2= Probably not true
 3= Not sure/cannot decide
 4= Probably true
 5= Definitely true",,Generic Conspiracist Beliefs Scale,,"Brotherton, R., French, C. C., & Pickering, A. D. (2013). Measuring belief in conspiracy theories: The generic conspiracist beliefs scale. Frontiers in psychology, 4, 279."
-Q12_14,Conspiracy Beliefs,cons14,Experiments involving new drugs or technologies are routinely carried out on the public without their knowledge or consent,Numeric,1,5,"1= Definitely not true
+120,Q12_14,cons14,Experiments involving new drugs or technologies are routinely carried out on the public without their knowledge or consent,Numeric,1,5,"1= Definitely not true
 2= Probably not true
 3= Not sure/cannot decide
 4= Probably true
 5= Definitely true",,Generic Conspiracist Beliefs Scale,,"Brotherton, R., French, C. C., & Pickering, A. D. (2013). Measuring belief in conspiracy theories: The generic conspiracist beliefs scale. Frontiers in psychology, 4, 279."
-Q12_15,Conspiracy Beliefs,cons15,A lot of important information is deliberately concealed from the public out of self-interest,Numeric,1,5,"1= Definitely not true
+121,Q12_15,cons15,A lot of important information is deliberately concealed from the public out of self-interest,Numeric,1,5,"1= Definitely not true
 2= Probably not true
 3= Not sure/cannot decide
 4= Probably true
 5= Definitely true",,Generic Conspiracist Beliefs Scale,,"Brotherton, R., French, C. C., & Pickering, A. D. (2013). Measuring belief in conspiracy theories: The generic conspiracist beliefs scale. Frontiers in psychology, 4, 279."
-Q13,Feedback,feedback,"Thank you for completing the survey. We greatly value your participation within this study. If you wish to provide us some comments or feedback on the study, please use the textbox below.",Text,,,,,,,
+122,Q13,feedback,"Thank you for completing the survey. We greatly value your participation within this study. If you wish to provide us some comments or feedback on the study, please use the textbox below.",Text,,,,,Feedback,,
